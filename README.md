@@ -64,65 +64,83 @@ status     : Open to collaborate 🤝
 
 
 <div align="center">
-
-<table>
+<table width="100%">
 <tr>
 <td>
+<p align="center">
+  <img src="https://img.shields.io/badge/Featured_Project-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Year-2025-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_001-111827?style=for-the-badge" />
+</p>
 
 ### Question Paper
 
 By this project we can upload the question papers and the students can use those paper while during the exams and the question papers will not be uploaded without the approvel of the maneger.
 
-**Tech Stack:** `React,Spring Boot,My-Sql`
+<p><strong>Tech Stack</strong></p>
+<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![My-Sql](https://img.shields.io/badge/My-Sql-111827?style=for-the-badge&logo=mysql&logoColor=white)</p>
 
-[GitHub](https://github.com/sairahul5/frontend-rpo.git) · [Live Demo](https://frontend-rpo.vercel.app/)
-
+<p>
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/frontend-rpo.git)
+   [![Live_Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-rpo.vercel.app/)
+</p>
 </td>
 </tr>
 </table>
-
 </div>
 
 
 <div align="center">
-
-<table>
+<table width="100%">
 <tr>
 <td>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Year-2024-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_002-111827?style=for-the-badge" />
+</p>
 
 ### Fit Flow
 
 This project is all about the fiitness,by this we can calaculate any element requied for the body like Body Mass Index(BMI) . So in feature we are going to integrate the body detecion to improve the body posture.
 
-**Tech Stack:** `HTML , CSS , Java Script , django`
+<p><strong>Tech Stack</strong></p>
+<p>![HTML](https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-111827?style=for-the-badge&logo=css3&logoColor=white) ![Java Script](https://img.shields.io/badge/Java_Script-111827?style=for-the-badge&logo=javascript&logoColor=white) ![django](https://img.shields.io/badge/django-111827?style=for-the-badge&logo=django&logoColor=white)</p>
 
-[GitHub](https://github.com/sairahul5/tourism-backend) · [Live Demo](https://github.com/sairahul5/tourism-backend)
-
+<p>
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/tourism-backend)
+   [![Live_Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/sairahul5/tourism-backend)
+</p>
 </td>
 </tr>
 </table>
-
 </div>
 
 
 <div align="center">
-
-<table>
+<table width="100%">
 <tr>
 <td>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_003-111827?style=for-the-badge" />
+</p>
 
 ### Tourism
 
 I completed this project as part of my full-stack course. In short, this project is about a tourism booking platform where tourists can book hotels and guides.
 
-**Tech Stack:** `React,Spring Boot,My Sql.`
+<p><strong>Tech Stack</strong></p>
+<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![My Sql.](https://img.shields.io/badge/My_Sql.-111827?style=for-the-badge&logo=mysql&logoColor=white)</p>
 
-[GitHub](https://github.com/sairahul5/tourism-frontend.git) · [Live Demo](https://tourism-frontend-tau.vercel.app/)
-
+<p>
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/tourism-frontend.git)
+   [![Live_Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://tourism-frontend-tau.vercel.app/)
+</p>
 </td>
 </tr>
 </table>
-
 </div>
 
 <!-- PROJECTS_END -->
