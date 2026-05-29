@@ -87,16 +87,8 @@ ${description}
   ${techImages || "_Not provided_"}
 </p>
 <p align="center">
-  ${
-    github
-      ? `<a href="${github}"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>`
-      : ""
-  }
-  ${
-    live
-      ? ` <a href="${live}"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>`
-      : ""
-  }
+  ${github ? `<a href="${github}"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>` : ""}
+  ${live ? `<a href="${live}"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>` : ""}
 </p>
 </td>
 </tr>
