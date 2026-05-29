@@ -62,6 +62,31 @@ status     : Open to collaborate 🤝
 
 <!-- PROJECTS_START -->
 
+### Question Paper
+By this project we can upload the question papers and the students can use those paper while during the exams and the question papers will not be uploaded without the approvel of the maneger.
+
+**Tech Stack:** React,Spring Boot,My-Sql
+
+[GitHub](https://github.com/sairahul5/frontend-rpo.git) | [Live Demo](https://frontend-rpo.vercel.app/)
+
+---
+
+### Fit Flow
+This project is all about the fiitness,by this we can calaculate any element requied for the body like Body Mass Index(BMI) . So in feature we are going to integrate the body detecion to improve the body posture.
+
+**Tech Stack:** HTML , CSS , Java Script , django
+
+[GitHub](https://github.com/sairahul5/tourism-backend) | [Live Demo](https://github.com/sairahul5/tourism-backend)
+
+---
+
+### Tourism
+I completed this project as part of my full-stack course. In short, this project is about a tourism booking platform where tourists can book hotels and guides.
+
+**Tech Stack:** React,Spring Boot,My Sql.
+
+[GitHub](https://github.com/sairahul5/tourism-frontend.git) | [Live Demo](https://tourism-frontend-tau.vercel.app/)
+
 <!-- PROJECTS_END -->
 ## 📊 GitHub Analytics
 
