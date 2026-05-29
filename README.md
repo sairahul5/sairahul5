@@ -81,7 +81,7 @@ By this project we can upload the question papers and the students can use those
 
 <p><strong>Tech Stack</strong></p>
 
-<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=white)</p>
+<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white)</p>
 
 <p>
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/frontend-rpo.git)
