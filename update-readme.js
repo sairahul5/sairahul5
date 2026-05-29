@@ -31,17 +31,17 @@ const logoMap = {
   spring: "spring",
 };
 
-function techBadge(tech) {
+function techImage(tech) {
   const clean = String(tech).trim();
   const key = clean.toLowerCase().replace(/[^a-z0-9]+/g, "");
-  const logo = logoMap[key];
+  const logo = logoMap[key] || "";
   const encoded = slug(clean);
 
-  if (logo) {
-    return `![${clean}](https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logo=${logo}&logoColor=white)`;
-  }
+  const badgeUrl = logo
+    ? `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logo=${logo}&logoColor=white`
+    : `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logoColor=white`;
 
-  return `![${clean}](https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logoColor=white)`;
+  return `<img src="${badgeUrl}" alt="${escapeHtml(clean)}" />`;
 }
 
 function splitTechStack(stack) {
@@ -61,17 +61,18 @@ async function main() {
 
   const projects = await res.json();
 
-  const cards = projects.map((p, index) => {
-    const name = escapeHtml(p.name || "Untitled");
-    const description = escapeHtml(p.description || "");
-    const year = p.year ? escapeHtml(p.year) : "";
-    const code = p.code ? escapeHtml(p.code) : "";
-    const techs = splitTechStack(p.techStack).map(techBadge).join(" ");
-    const github = p.githubLink || "";
-    const live = p.liveLink || "";
-    const featured = index === 0 ? "Featured Project" : "Project";
+  const cards = projects
+    .map((p, index) => {
+      const name = escapeHtml(p.name || "Untitled");
+      const description = escapeHtml(p.description || "");
+      const year = p.year ? escapeHtml(p.year) : "";
+      const code = p.code ? escapeHtml(p.code) : "";
+      const techImages = splitTechStack(p.techStack).map(techImage).join(" ");
+      const github = p.githubLink || "";
+      const live = p.liveLink || "";
+      const featured = index === 0 ? "Featured Project" : "Project";
 
-    return `
+      return `
 <div align="center">
 
 <table width="100%">
@@ -79,9 +80,9 @@ async function main() {
 <td>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/${slug(featured)}-1f6feb?style=for-the-badge" />
-  ${year ? `<img src="https://img.shields.io/badge/Year-${slug(year)}-111827?style=for-the-badge" />` : ""}
-  ${code ? `<img src="https://img.shields.io/badge/Code-${slug(code)}-111827?style=for-the-badge" />` : ""}
+  <img src="https://img.shields.io/badge/${slug(featured)}-1f6feb?style=for-the-badge" alt="${escapeHtml(featured)}" />
+  ${year ? `<img src="https://img.shields.io/badge/Year-${slug(year)}-111827?style=for-the-badge" alt="${escapeHtml(year)}" />` : ""}
+  ${code ? `<img src="https://img.shields.io/badge/Code-${slug(code)}-111827?style=for-the-badge" alt="${escapeHtml(code)}" />` : ""}
 </p>
 
 ### ${name}
@@ -90,11 +91,21 @@ ${description}
 
 <p><strong>Tech Stack</strong></p>
 
-<p>${techs || "_Not provided_"}</p>
+<p align="center">
+  ${techImages || "_Not provided_"}
+</p>
 
-<p>
-  ${github ? `[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](${github})` : ""}
-  ${live ? ` [![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](${live})` : ""}
+<p align="center">
+  ${
+    github
+      ? `<a href="${github}"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>`
+      : ""
+  }
+  ${
+    live
+      ? ` <a href="${live}"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>`
+      : ""
+  }
 </p>
 
 </td>
@@ -102,7 +113,8 @@ ${description}
 </table>
 
 </div>`;
-  }).join("\n\n");
+    })
+    .join("\n\n");
 
   const readme = fs.readFileSync("README.md", "utf8");
 
