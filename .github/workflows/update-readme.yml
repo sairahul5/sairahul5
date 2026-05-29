@@ -1,29 +1,22 @@
 name: Update README
-
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
-
 jobs:
   update:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 24
-
       - name: Run script
         run: node update-readme.js
-
       - name: Commit changes
         run: |
           git config user.name "github-actions"
