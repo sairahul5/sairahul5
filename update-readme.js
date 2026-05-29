@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 const API_URL = "https://backend-g3hl.onrender.com/api/projects";
 
 function escapeHtml(text = "") {
@@ -10,7 +9,7 @@ function escapeHtml(text = "") {
 }
 
 function slug(text) {
-  return encodeURIComponent(String(text).replace(/\s+/g, "_"));
+  return String(text).replace(/\s+/g, "_").replace(/-/g, "--");
 }
 
 const logoMap = {
@@ -36,11 +35,9 @@ function techImage(tech) {
   const key = clean.toLowerCase().replace(/[^a-z0-9]+/g, "");
   const logo = logoMap[key] || "";
   const encoded = slug(clean);
-
   const badgeUrl = logo
     ? `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logo=${logo}&logoColor=white`
     : `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logoColor=white`;
-
   return `<img src="${badgeUrl}" alt="${escapeHtml(clean)}" />`;
 }
 
@@ -54,11 +51,9 @@ function splitTechStack(stack) {
 
 async function main() {
   const res = await fetch(API_URL);
-
   if (!res.ok) {
     throw new Error(`API request failed: ${res.status} ${res.statusText}`);
   }
-
   const projects = await res.json();
 
   const cards = projects
@@ -70,17 +65,15 @@ async function main() {
       const techImages = splitTechStack(p.techStack).map(techImage).join(" ");
       const github = p.githubLink || "";
       const live = p.liveLink || "";
-      const featured = index === 0 ? "Featured Project" : "Project";
+      const featured = index === 0 ? "Featured_Project" : "Project";
 
       return `
 <div align="center">
-
 <table width="100%">
 <tr>
 <td>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/${slug(featured)}-1f6feb?style=for-the-badge" alt="${escapeHtml(featured)}" />
+  <img src="https://img.shields.io/badge/${featured}-1f6feb?style=for-the-badge" alt="${escapeHtml(featured)}" />
   ${year ? `<img src="https://img.shields.io/badge/Year-${slug(year)}-111827?style=for-the-badge" alt="${escapeHtml(year)}" />` : ""}
   ${code ? `<img src="https://img.shields.io/badge/Code-${slug(code)}-111827?style=for-the-badge" alt="${escapeHtml(code)}" />` : ""}
 </p>
@@ -90,11 +83,9 @@ async function main() {
 ${description}
 
 <p><strong>Tech Stack</strong></p>
-
 <p align="center">
   ${techImages || "_Not provided_"}
 </p>
-
 <p align="center">
   ${
     github
@@ -107,19 +98,16 @@ ${description}
       : ""
   }
 </p>
-
 </td>
 </tr>
 </table>
-
 </div>`;
     })
     .join("\n\n");
 
   const readme = fs.readFileSync("README.md", "utf8");
-
   const updated = readme.replace(
-    /<!-- PROJECTS_START -->[\s\S]*<!-- PROJECTS_END -->/,
+    /<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->/,
     `<!-- PROJECTS_START -->\n\n${cards}\n\n<!-- PROJECTS_END -->`
   );
 
