@@ -8,21 +8,19 @@
 
 ---
 
-<img align="right" width="340" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
 
 ### 👨‍💻 About Me
 
-```yaml
-name       : Sai Rahul Adabala
-alias      : sairahul5
-college    : KL University, Vijayawada
-degree     : B.Tech — Computer Science Engineering
-primary    : Java · Spring Boot · MySQL
-secondary  : React · Vite · REST APIs
-building   : Full-Stack projects
-location   : Kakinada, India 📍
-status     : Open to collaborate 🤝
-```
+    name       : Sai Rahul Adabala
+    alias      : sairahul5
+    college    : KL University, Vijayawada
+    degree     : B.Tech — Computer Science Engineering
+    primary    : Java · Spring Boot · MySQL
+    secondary  : React · Vite · REST APIs
+    building   : Full-Stack projects
+    location   : Kakinada, India 📍
+    status     : Open to collaborate 🤝
 
 <br clear="right"/>
 
@@ -68,13 +66,13 @@ status     : Open to collaborate 🤝
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sairahul5&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sairahul5&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=sairahul5&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)](https://github.com/sairahul5)
+![GitHub Streak](https://streak-stats.demolab.com?user=sairahul5&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
 </div>
 
