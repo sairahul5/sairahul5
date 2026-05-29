@@ -70,9 +70,9 @@ status     : Open to collaborate 🤝
 <td>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Featured_Project-1f6feb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Year-2025-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Code-PJ_%3A_001-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Featured_Project-1f6feb?style=for-the-badge" alt="Featured Project" />
+  <img src="https://img.shields.io/badge/Year-2025-111827?style=for-the-badge" alt="2025" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_001-111827?style=for-the-badge" alt="PJ : 001" />
 </p>
 
 ### Question Paper
@@ -81,11 +81,13 @@ By this project we can upload the question papers and the students can use those
 
 <p><strong>Tech Stack</strong></p>
 
-<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white)</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
 
-<p>
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/frontend-rpo.git)
-   [![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-rpo.vercel.app/)
+<p align="center">
+  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+   <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 
 </td>
@@ -102,9 +104,9 @@ By this project we can upload the question papers and the students can use those
 <td>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Year-2024-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Code-PJ_%3A_002-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" alt="Project" />
+  <img src="https://img.shields.io/badge/Year-2024-111827?style=for-the-badge" alt="2024" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_002-111827?style=for-the-badge" alt="PJ : 002" />
 </p>
 
 ### Fit Flow
@@ -113,11 +115,13 @@ This project is all about the fiitness,by this we can calaculate any element req
 
 <p><strong>Tech Stack</strong></p>
 
-<p>![HTML](https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-111827?style=for-the-badge&logo=css3&logoColor=white) ![Java Script](https://img.shields.io/badge/Java_Script-111827?style=for-the-badge&logo=javascript&logoColor=white) ![django](https://img.shields.io/badge/django-111827?style=for-the-badge&logo=django&logoColor=white)</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/CSS-111827?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/Java_Script-111827?style=for-the-badge&logo=javascript&logoColor=white" alt="Java Script" /> <img src="https://img.shields.io/badge/django-111827?style=for-the-badge&logo=django&logoColor=white" alt="django" />
+</p>
 
-<p>
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/tourism-backend)
-   [![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/sairahul5/tourism-backend)
+<p align="center">
+  <a href="https://github.com/sairahul5/tourism-backend"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+   <a href="https://github.com/sairahul5/tourism-backend"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 
 </td>
@@ -134,9 +138,9 @@ This project is all about the fiitness,by this we can calaculate any element req
 <td>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Code-PJ_%3A_003-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" alt="Project" />
+  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" alt="2026" />
+  <img src="https://img.shields.io/badge/Code-PJ_%3A_003-111827?style=for-the-badge" alt="PJ : 003" />
 </p>
 
 ### Tourism
@@ -145,11 +149,13 @@ I completed this project as part of my full-stack course. In short, this project
 
 <p><strong>Tech Stack</strong></p>
 
-<p>![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white) ![My Sql.](https://img.shields.io/badge/My_Sql.-111827?style=for-the-badge&logo=mysql&logoColor=white)</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/My_Sql.-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="My Sql." />
+</p>
 
-<p>
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5/tourism-frontend.git)
-   [![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://tourism-frontend-tau.vercel.app/)
+<p align="center">
+  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+   <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 
 </td>
