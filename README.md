@@ -34,7 +34,7 @@ status     : Open to collaborate 🤝
 
 | Layer | Technologies |
 |-------|-------------|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
+| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
 | **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) |
 | **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
 | **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
@@ -50,13 +50,11 @@ status     : Open to collaborate 🤝
 
 | Project | Stack | Status |
 |---------|-------|--------|
-| 🖥️ **Personal Portfolio** | React · Vite · Spring Boot · MySQL | 🔨 In Progress |
+| 🔍 **Duplicate Detection** | Java · Spring Boot · MySQL | 🔨 In Progress |
 
 </div>
 
-> A terminal-aesthetic full-stack portfolio with a protected Admin Dashboard for managing projects & skills — built with React + Vite on the frontend and Spring Boot + MySQL on the backend.
->
-> 🔗 **Live:** [frontend-eight-olive-80.vercel.app](https://frontend-eight-olive-80.vercel.app/)
+> A backend system to detect and manage duplicate records efficiently — built with Java and Spring Boot, powered by MySQL for persistent storage.
 
 ---
 
