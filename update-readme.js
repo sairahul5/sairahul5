@@ -2,6 +2,13 @@ const fs = require("fs");
 
 const API_URL = "https://backend-g3hl.onrender.com/api/projects";
 
+function escapeHtml(text = "") {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
 async function main() {
   const res = await fetch(API_URL);
 
@@ -12,13 +19,33 @@ async function main() {
   const projects = await res.json();
 
   const projectSection = projects.map((p) => {
-    return `### ${p.name}
-${p.description}
+    const name = escapeHtml(p.name);
+    const description = escapeHtml(p.description);
+    const techStack = escapeHtml(p.techStack);
+    const github = p.githubLink ? escapeHtml(p.githubLink) : "";
+    const live = p.liveLink ? escapeHtml(p.liveLink) : "";
 
-**Tech Stack:** ${p.techStack}
+    return `
+<div align="center">
 
-[GitHub](${p.githubLink})${p.liveLink ? ` | [Live Demo](${p.liveLink})` : ""}`;
-  }).join("\n\n---\n\n");
+<table>
+<tr>
+<td>
+
+### ${name}
+
+${description}
+
+**Tech Stack:** \`${techStack}\`
+
+${github ? `[GitHub](${github})` : ""}${github && live ? " · " : ""}${live ? `[Live Demo](${live})` : ""}
+
+</td>
+</tr>
+</table>
+
+</div>`;
+  }).join("\n\n");
 
   const readme = fs.readFileSync("README.md", "utf8");
 
