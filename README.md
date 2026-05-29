@@ -59,18 +59,10 @@ status     : Open to collaborate 🤝
 ---
 
 ## ✅ Completed Projects
-<!--
-<div align="center">
 
-| Project | Description | Stack | Status |
-|---------|-------------|-------|--------|
-| 🌍 **Torisum** | A full-featured tourism platform — browse destinations, manage bookings, and explore travel info | Java · Spring Boot · MySQL | ✅ Completed |
-| 📝 **Question Paper** | A question bank organizer that streamlines storing, categorizing, and retrieving exam questions | Java · Spring Boot · MySQL | ✅ Completed |
-
-</div>
-
----
--->
+<!-- PROJECTS_START -->
+Projects will load here
+<!-- PROJECTS_END -->
 ## 📊 GitHub Analytics
 
 <div align="center">
