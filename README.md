@@ -57,7 +57,7 @@ status     : Open to collaborate 🤝
 > A backend system to detect and manage duplicate records efficiently — built with Java and Spring Boot, powered by MySQL for persistent storage.
 
 ---
-
+<!--
 ## ✅ Completed Projects
 
 <div align="center">
@@ -70,7 +70,7 @@ status     : Open to collaborate 🤝
 </div>
 
 ---
-
+-->
 ## 📊 GitHub Analytics
 
 <div align="center">
