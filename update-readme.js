@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const API_URL = process.env.API_URL;
+const API_URL = "https://backend-g3hl.onrender.com/api/projects";
 
 function escapeHtml(text = "") {
   return String(text)
