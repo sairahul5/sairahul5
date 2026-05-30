@@ -36,6 +36,83 @@ function techImage(tech) {
   const logo = logoMap[key] || "";
   const encoded = slug(clean);
   const badgeUrl = logo
+    ? "https://img.shields.io/badge/" + encoded + "-111827?style=for-the-badge&logo=" + logo + "&logoColor=white"
+    : "https://img.shields.io/badge/" + encoded + "-111827?style=for-the-badge&logoColor=white";
+  return '<img src="' + badgeUrl + '" alt="' + escapeHtml(clean) + '" />';
+}
+
+function splitTechStack(stack) {
+  if (!stack) return [];
+  return String(stack)
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+async function main() {
+  const res = await fetch(API_URL, {
+    headers: {
+      "User-Agent": "github-actions-readme-updater/1.0",
+      "Accept": "application/json",
+    },
+  });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error("API request failed: " + res.status + " " + res.statusText + " — " + body);
+  }
+
+  const projects = await res.json();
+
+  if (!Array.isArray(projects) || projects.length === 0) {
+    console.log("No projects returned from API. Skipping README update.");
+    return;
+  }
+
+  const cards = projects
+    .map((p, index) => {
+      const name = escapeHtml(p.name || "Untitled");
+      const description = escapeHtml(p.description || "");
+      const year = p.year ? escapeHtml(String(p.year)) : "";
+      const code = p.code ? escapeHtml(p.code) : "";
+      const techImages = splitTechStack(p.techStack).map(techImage).join(" ");
+      const github = p.githubLink || "";
+      const live = p.liveLink || "";
+      const featured = index === 0 ? "Featured_Project" : "Project";
+
+      let card = '\n<div align="center">\n<table width="100%">\n<tr>\n<td>\n<p align="center">\n';
+      card += '  <img src="https://img.shields.io/badge/' + featured + '-1f6feb?style=for-the-badge" alt="' + escapeHtml(featured) + '" />\n';
+      if (year) card += '  <img src="https://img.shields.io/badge/Year-' + slug(year) + '-111827?style=for-the-badge" alt="' + escapeHtml(year) + '" />\n';
+      if (code) card += '  <img src="https://img.shields.io/badge/Code-' + slug(code) + '-111827?style=for-the-badge" alt="' + escapeHtml(code) + '" />\n';
+      card += '</p>\n\n### ' + name + '\n\n' + description + '\n\n';
+      card += '<p><strong>Tech Stack</strong></p>\n<p align="center">\n  ';
+      card += (techImages || "_Not provided_") + '\n</p>\n<p align="center">\n  ';
+      if (github) card += '<a href="' + github + '"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> ';
+      if (live) card += '<a href="' + live + '"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>';
+      card += '\n</p>\n</td>\n</tr>\n</table>\n</div>';
+      return card;
+    })
+    .join("\n\n");
+
+  const readme = fs.readFileSync("README.md", "utf8");
+  const updated = readme.replace(
+    /<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->/,
+    "<!-- PROJECTS_START -->\n\n" + cards + "\n\n<!-- PROJECTS_END -->"
+  );
+
+  if (readme === updated) {
+    throw new Error("Projects markers not found in README.md");
+  }
+
+  fs.writeFileSync("README.md", updated);
+  console.log("README updated with " + projects.length + " project(s)");
+}
+
+main().catch((err) => {
+  console.error("Error:", err.message);
+  process.exit(1);
+});  const encoded = slug(clean);
+  const badgeUrl = logo
     ? `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logo=${logo}&logoColor=white`
     : `https://img.shields.io/badge/${encoded}-111827?style=for-the-badge&logoColor=white`;
   return `<img src="${badgeUrl}" alt="${escapeHtml(clean)}" />`;
