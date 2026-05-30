@@ -1,7 +1,7 @@
 name: Update README
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'   # Every 30 min — reliable on GitHub free tier
   workflow_dispatch:
 jobs:
   update:
@@ -11,16 +11,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Wake up Render backend
+        # Render free tier spins down after 15min inactivity.
+        # Ping it first so it's ready when the script runs.
+        run: |
+          echo "Pinging backend to wake it up..."
+          curl -s --max-time 30 https://backend-g3hl.onrender.com/api/projects > /dev/null || true
+          echo "Waiting 10s for cold start..."
+          sleep 10
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 24
+
       - name: Run script
         run: node update-readme.js
+
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "Update README" || echo "No changes"
+          git diff --staged --quiet || git commit -m "chore: update README projects [skip ci]"
           git push
