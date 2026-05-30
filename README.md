@@ -80,8 +80,7 @@ By this project we can upload the question papers and the students can use those
   <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 </p>
 <p align="center">
-  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 </td>
 </tr>
@@ -108,8 +107,7 @@ I completed this project as part of my full-stack course. In short, this project
   <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/My_Sql.-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="My Sql." />
 </p>
 <p align="center">
-  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
 </p>
 </td>
 </tr>
