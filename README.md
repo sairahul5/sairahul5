@@ -67,7 +67,7 @@
 <td>
 <p align="center">
   <img src="https://img.shields.io/badge/Featured_Project-1f6feb?style=for-the-badge" alt="Featured_Project" />
-  <img src="https://img.shields.io/badge/Year-2025-111827?style=for-the-badge" alt="2025" />
+  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" alt="2026" />
   <img src="https://img.shields.io/badge/Code-PJ_:_001-111827?style=for-the-badge" alt="PJ : 001" />
 </p>
 
