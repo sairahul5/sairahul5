@@ -23,5 +23,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add README.md
           git diff --staged --quiet || git commit -m "chore: update README projects [skip ci]"
-          git push          git diff --staged --quiet || git commit -m "chore: update README projects [skip ci]"
           git push
