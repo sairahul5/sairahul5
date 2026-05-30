@@ -50,11 +50,33 @@ function splitTechStack(stack) {
 }
 
 async function main() {
-  const res = await fetch(API_URL);
-  if (!res.ok) {
-    throw new Error(`API request failed: ${res.status} ${res.statusText}`);
+  // Fetch with timeout so workflow doesn't hang if Render is sleeping
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+
+  let projects;
+  try {
+    const res = await fetch(API_URL, { signal: controller.signal });
+    clearTimeout(timeout);
+    if (!res.ok) {
+      console.log(`API returned ${res.status} — backend may be sleeping. Skipping update.`);
+      process.exit(0); // Exit 0 = don't fail the workflow
+    }
+    projects = await res.json();
+  } catch (err) {
+    clearTimeout(timeout);
+    if (err.name === "AbortError") {
+      console.log("API timed out (backend sleeping on Render free tier). Skipping update.");
+    } else {
+      console.log(`API fetch error: ${err.message}. Skipping update.`);
+    }
+    process.exit(0); // Exit 0 = don't fail the workflow
   }
-  const projects = await res.json();
+
+  if (!Array.isArray(projects) || projects.length === 0) {
+    console.log("No projects returned from API. Skipping README update.");
+    process.exit(0);
+  }
 
   const cards = projects
     .map((p, index) => {
@@ -98,17 +120,20 @@ ${description}
     .join("\n\n");
 
   const readme = fs.readFileSync("README.md", "utf8");
+  const startMarker = "<!-- PROJECTS_START -->";
+  const endMarker = "<!-- PROJECTS_END -->";
+
+  if (!readme.includes(startMarker) || !readme.includes(endMarker)) {
+    throw new Error("Projects markers not found in README.md — add <!-- PROJECTS_START --> and <!-- PROJECTS_END --> comments.");
+  }
+
   const updated = readme.replace(
     /<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->/,
     `<!-- PROJECTS_START -->\n\n${cards}\n\n<!-- PROJECTS_END -->`
   );
 
-  if (readme === updated) {
-    throw new Error("Projects markers not found in README.md");
-  }
-
   fs.writeFileSync("README.md", updated);
-  console.log(`README updated with ${projects.length} project(s)`);
+  console.log(`✅ README updated with ${projects.length} project(s)`);
 }
 
 main().catch((err) => {
