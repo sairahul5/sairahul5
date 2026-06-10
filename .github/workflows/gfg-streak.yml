@@ -17,8 +17,20 @@ jobs:
         id: gfg
         run: |
           RESPONSE=$(curl -s \
-            -H "Cookie: ${{ secrets.GFG_SESSION_COOKIE }}" \
-            -H "Accept: application/json" \
+            -H "authority: practiceapi.geeksforgeeks.org" \
+            -H "method: GET" \
+            -H "scheme: https" \
+            -H "accept: */*" \
+            -H "accept-encoding: gzip, deflate, br, zstd" \
+            -H "accept-language: en-GB,en-US;q=0.9,en;q=0.8" \
+            -H "origin: https://www.geeksforgeeks.org" \
+            -H "referer: https://www.geeksforgeeks.org/problem-of-the-day/" \
+            -H "sec-fetch-site: same-site" \
+            -H "sec-fetch-mode: cors" \
+            -H "sec-fetch-dest: empty" \
+            -H "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" \
+            -H "Cookie: ${{ secrets.GFG_COOKIE }}" \
+            --compressed \
             "https://practiceapi.geeksforgeeks.org/api/latest/problems-of-day/my-pod-profile/")
 
           echo "API response: $RESPONSE"
@@ -33,36 +45,31 @@ jobs:
 
       - name: Update README with streak data
         run: |
-          CURRENT="${{ steps.gfg.outputs.current }}"
-          LONGEST="${{ steps.gfg.outputs.longest }}"
-          TOTAL="${{ steps.gfg.outputs.total }}"
-
           python3 << PYEOF
           import re
+
+          current = "${{ steps.gfg.outputs.current }}"
+          longest = "${{ steps.gfg.outputs.longest }}"
+          total   = "${{ steps.gfg.outputs.total }}"
 
           with open("README.md", "r") as f:
               content = f.read()
 
-          new_block = f"""<!-- GFG_STREAK_START -->
-          | 🔥 Current Streak | 🏆 Longest Streak | ✅ Total Solved |
-          |:-----------------:|:-----------------:|:--------------:|
-          | {current} days | {longest} days | {total} problems |
-          <!-- GFG_STREAK_END -->""".replace("          ", "")
-
-          new_block = new_block.format(
-              current="${{ steps.gfg.outputs.current }}",
-              longest="${{ steps.gfg.outputs.longest }}",
-              total="${{ steps.gfg.outputs.total }}"
+          new_block = (
+              "<!-- GFG_STREAK_START -->\n"
+              "| 🔥 Current Streak | 🏆 Longest Streak | ✅ Total Solved |\n"
+              "|:-----------------:|:-----------------:|:--------------:|\n"
+              f"| {current} days | {longest} days | {total} problems |\n"
+              "<!-- GFG_STREAK_END -->"
           )
 
-          # Replace existing block if present, else this won't match (handled by README having the markers)
           pattern = r"<!-- GFG_STREAK_START -->.*?<!-- GFG_STREAK_END -->"
           updated = re.sub(pattern, new_block, content, flags=re.DOTALL)
 
           with open("README.md", "w") as f:
               f.write(updated)
 
-          print("README updated successfully")
+          print(f"Updated: streak={current}, longest={longest}, total={total}")
           PYEOF
 
       - name: Commit and push
