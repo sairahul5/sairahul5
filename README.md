@@ -1,8 +1,10 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=220&section=header&text=Sai%20Rahul%20Adabala&fontSize=52&fontColor=ffffff&fontAlignY=52&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20CS%20Undergrad%20at%20KL%20University&descSize=15&descAlignY=72&descColor=8b949e" width="100%" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=200&section=header&text=Sai+Rahul+Adabala&fontSize=50&fontColor=ffffff&fontAlignY=50&desc=Backend+Engineer+%7C+Java+%26+Spring+Boot+%7C+CS+Undergrad+at+KL+University&descSize=14&descAlignY=70&descColor=8b949e" width="100%" />
+</div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+at+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+at+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products)](https://git.io/typing-svg)
 
 </div>
 
@@ -27,7 +29,7 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 </td>
 <td valign="top" width="45%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117" width="100%" />
 
 </td>
 </tr>
@@ -208,4 +210,6 @@ A full-stack tourism web application where travellers can explore destinations, 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:0d1f2d,100:0d1117&height=100&section=footer" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:0d1f2d,100:0d1117&height=100&section=footer" width="100%" />
+</div>
