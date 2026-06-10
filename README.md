@@ -1,10 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=200&section=header&text=Sai+Rahul+Adabala&fontSize=50&fontColor=ffffff&fontAlignY=50&desc=Backend+Engineer+%7C+Java+%26+Spring+Boot+%7C+CS+Undergrad+at+KL+University&descSize=14&descAlignY=70&descColor=8b949e" width="100%" />
-</div>
 
-<div align="center">
+![header](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=36&duration=1&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=600&height=70&lines=Sai+Rahul+Adabala)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+at+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products)](https://git.io/typing-svg)
+![subheader](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=1&pause=999999&color=8B949E&center=true&vCenter=true&repeat=false&width=600&height=30&lines=Backend+Engineer+%7C+Java+%26+Spring+Boot+%7C+CS+Undergrad+at+KL+University)
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=500&height=30&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+at+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
@@ -162,6 +164,22 @@ A full-stack tourism web application where travellers can explore destinations, 
 
 ---
 
+## GFG Problem of the Day Streak
+
+<div align="center">
+
+[![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-Profile-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/sairahuladabala123/)
+
+<!-- GFG_STREAK_START -->
+| 🔥 Current Streak | 🏆 Longest Streak | ✅ Total Solved |
+|:-----------------:|:-----------------:|:--------------:|
+| 5 days | 9 days | 14 problems |
+<!-- GFG_STREAK_END -->
+
+</div>
+
+---
+
 ## GitHub Analytics
 
 <div align="center">
@@ -211,5 +229,7 @@ A full-stack tourism web application where travellers can explore destinations, 
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:0d1f2d,100:0d1117&height=100&section=footer" width="100%" />
+
+![footer](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=1&duration=1&pause=999999&color=0d1117&center=true&vCenter=true&repeat=false&width=900&height=8&lines=.)
+
 </div>
