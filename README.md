@@ -43,14 +43,29 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 
 <div align="center">
 
-| Layer | Technologies |
-|---|---|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) &nbsp; ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) &nbsp; ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) &nbsp; ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white) &nbsp; ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) &nbsp; ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) &nbsp; ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) &nbsp; ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) &nbsp; ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) &nbsp; ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) &nbsp; ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
-| **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) &nbsp; ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) |
+**Languages**
+
+[![My Skills](https://skillicons.dev/icons?i=java,c,mysql)](https://skillicons.dev)
+
+**Backend**
+
+[![My Skills](https://skillicons.dev/icons?i=spring,postman)](https://skillicons.dev)
+
+**Frontend**
+
+[![My Skills](https://skillicons.dev/icons?i=react,vite,html,css)](https://skillicons.dev)
+
+**Database**
+
+[![My Skills](https://skillicons.dev/icons?i=mysql)](https://skillicons.dev)
+
+**Tooling**
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,postman,vscode)](https://skillicons.dev)
+
+**Deployment**
+
+[![My Skills](https://skillicons.dev/icons?i=vercel,render)](https://skillicons.dev)
 
 </div>
 
@@ -76,11 +91,8 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 A backend service that detects and manages duplicate records across datasets. Designed with a focus on performance and data integrity — built using Java and Spring Boot with MySQL as the persistence layer.
 
 <p><strong>Tech Stack</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+
+[![My Skills](https://skillicons.dev/icons?i=java,spring,mysql)](https://skillicons.dev)
 
 </td>
 </tr>
@@ -107,11 +119,9 @@ A backend service that detects and manages duplicate records across datasets. De
 A full-stack platform for managing and distributing exam question papers. Students can access uploaded papers during exams, while papers are gated behind manager approval — ensuring controlled access at every stage.
 
 <p><strong>Tech Stack</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+
+[![My Skills](https://skillicons.dev/icons?i=react,spring,mysql)](https://skillicons.dev)
+
 <p align="center">
   <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   &nbsp;
@@ -143,12 +153,9 @@ A full-stack platform for managing and distributing exam question papers. Studen
 A full-stack tourism web application where travellers can explore destinations, book hotels, and hire local guides. Built end-to-end as part of a full-stack development course.
 
 <p><strong>Tech Stack</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+
+[![My Skills](https://skillicons.dev/icons?i=react,js,spring,mysql)](https://skillicons.dev)
+
 <p align="center">
   <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   &nbsp;
