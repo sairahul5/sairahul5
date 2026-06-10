@@ -43,29 +43,56 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 
 <div align="center">
 
-**Languages**
-
-[![My Skills](https://skillicons.dev/icons?i=java,c,mysql)](https://skillicons.dev)
-
-**Backend**
-
-[![My Skills](https://skillicons.dev/icons?i=spring,postman)](https://skillicons.dev)
-
-**Frontend**
-
-[![My Skills](https://skillicons.dev/icons?i=react,vite,html,css)](https://skillicons.dev)
-
-**Database**
-
-[![My Skills](https://skillicons.dev/icons?i=mysql)](https://skillicons.dev)
-
-**Tooling**
-
-[![My Skills](https://skillicons.dev/icons?i=git,github,postman,vscode)](https://skillicons.dev)
-
-**Deployment**
-
-[![My Skills](https://skillicons.dev/icons?i=vercel,render)](https://skillicons.dev)
+<table>
+  <tr>
+    <td align="center" width="120"><strong>Languages</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=java,c,mysql&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Backend</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=spring,postman&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Frontend</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Database</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=mysql&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Tooling</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Deployment</strong></td>
+    <td>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=vercel,render&theme=dark" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -75,97 +102,98 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 
 <!-- PROJECTS_START -->
 
-<div align="center">
 <table width="100%">
 <tr>
-<td>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In_Progress-f0a500?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Code-PJ_:_003-111827?style=for-the-badge" />
-</p>
+<td width="50%" valign="top">
 
-### 🔍 Duplicate Detection System
+<div align="center">
+
+**🔍 Duplicate Detection System**
+
+![Status](https://img.shields.io/badge/Status-In_Progress-f0a500?style=flat-square)
+![Code](https://img.shields.io/badge/PJ:003-111827?style=flat-square)
+
+</div>
 
 A backend service that detects and manages duplicate records across datasets. Designed with a focus on performance and data integrity — built using Java and Spring Boot with MySQL as the persistence layer.
 
-<p><strong>Tech Stack</strong></p>
-
-[![My Skills](https://skillicons.dev/icons?i=java,spring,mysql)](https://skillicons.dev)
+<div align="center">
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql&theme=dark" />
+</a>
+</div>
 
 </td>
-</tr>
-</table>
+
+<td width="50%" valign="top">
+
+<div align="center">
+
+**📄 Question Paper Management System**
+
+![Status](https://img.shields.io/badge/Completed-238636?style=flat-square)
+![Year](https://img.shields.io/badge/2026-111827?style=flat-square)
+![Code](https://img.shields.io/badge/PJ:001-111827?style=flat-square)
+
 </div>
+
+A full-stack platform for managing and distributing exam question papers. Papers are gated behind manager approval — ensuring controlled access at every stage.
+
+<div align="center">
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,spring,mysql&theme=dark" />
+</a>
 
 <br/>
 
-<div align="center">
-<table width="100%">
-<tr>
-<td>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sairahul5/frontend-rpo.git)
+&nbsp;
+[![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white)](https://frontend-rpo.vercel.app/)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Completed-238636?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Code-PJ_:_001-111827?style=for-the-badge" />
-</p>
-
-### 📄 Question Paper Management System
-
-A full-stack platform for managing and distributing exam question papers. Students can access uploaded papers during exams, while papers are gated behind manager approval — ensuring controlled access at every stage.
-
-<p><strong>Tech Stack</strong></p>
-
-[![My Skills](https://skillicons.dev/icons?i=react,spring,mysql)](https://skillicons.dev)
-
-<p align="center">
-  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
-
-</td>
-</tr>
-</table>
 </div>
 
-<br/>
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
 
 <div align="center">
-<table width="100%">
-<tr>
-<td>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Completed-238636?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Code-PJ_:_002-111827?style=for-the-badge" />
-</p>
+**🌏 Tourism Booking Platform**
 
-### 🌏 Tourism Booking Platform
+![Status](https://img.shields.io/badge/Completed-238636?style=flat-square)
+![Year](https://img.shields.io/badge/2026-111827?style=flat-square)
+![Code](https://img.shields.io/badge/PJ:002-111827?style=flat-square)
+
+</div>
 
 A full-stack tourism web application where travellers can explore destinations, book hotels, and hire local guides. Built end-to-end as part of a full-stack development course.
 
-<p><strong>Tech Stack</strong></p>
+<div align="center">
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,js,spring,mysql&theme=dark" />
+</a>
 
-[![My Skills](https://skillicons.dev/icons?i=react,js,spring,mysql)](https://skillicons.dev)
+<br/>
 
-<p align="center">
-  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sairahul5/tourism-frontend.git)
+&nbsp;
+[![Live Demo](https://img.shields.io/badge/Live_Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white)](https://tourism-frontend-tau.vercel.app/)
+
+</div>
 
 </td>
+
+<td width="50%" valign="top">
+<!-- Placeholder for future project -->
+</td>
+
 </tr>
 </table>
-</div>
 
 <!-- PROJECTS_END -->
 
