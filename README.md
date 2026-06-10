@@ -164,22 +164,6 @@ A full-stack tourism web application where travellers can explore destinations, 
 
 ---
 
-## GFG Problem of the Day Streak
-
-<div align="center">
-
-[![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-Profile-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/sairahuladabala123/)
-
-<!-- GFG_STREAK_START -->
-| 🔥 Current Streak | 🏆 Longest Streak | ✅ Total Solved |
-|:-----------------:|:-----------------:|:--------------:|
-| 5 days | 9 days | 14 problems |
-<!-- GFG_STREAK_END -->
-
-</div>
-
----
-
 ## GitHub Analytics
 
 <div align="center">
