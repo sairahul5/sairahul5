@@ -1,14 +1,16 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=220&section=header&text=Sai%20Rahul%20Adabala&fontSize=52&fontColor=ffffff&fontAlignY=52&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20CS%20Undergrad%20%40%20KL%20University&descSize=15&descAlignY=72&descColor=8b949e" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=220&section=header&text=Sai%20Rahul%20Adabala&fontSize=52&fontColor=ffffff&fontAlignY=52&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20CS%20Undergrad%20at%20KL%20University&descSize=15&descAlignY=72&descColor=8b949e" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+%40+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+at+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
 <br/>
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" />
+<table border="0" width="100%">
+<tr>
+<td valign="top" width="55%">
 
 ### About Me
 
@@ -22,7 +24,14 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 - 📍 &nbsp; Based in Kakinada, India
 - 🤝 &nbsp; Open to collaborations and internships
 
-<br clear="right"/>
+</td>
+<td valign="top" width="45%">
+
+<img src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" width="100%" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -53,8 +62,6 @@ Currently building a **Duplicate Detection System** in Spring Boot and sharpenin
 <td>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Featured-1f6feb?style=for-the-badge" />
-  &nbsp;
   <img src="https://img.shields.io/badge/Status-In_Progress-f0a500?style=for-the-badge" />
   &nbsp;
   <img src="https://img.shields.io/badge/Code-PJ_:_003-111827?style=for-the-badge" />
