@@ -1,114 +1,149 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:1f6feb&height=200&section=header&text=Sai%20Rahul%20Adabala&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Backend%20Developer%20%C2%B7%20CS%20Undergrad%20%C2%B7%20Builder&descSize=16&descAlignY=75&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f2d,100:1f6feb&height=220&section=header&text=Sai%20Rahul%20Adabala&fontSize=52&fontColor=ffffff&fontAlignY=52&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20CS%20Undergrad%20%40%20KL%20University&descSize=15&descAlignY=72&descColor=8b949e" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+backends+with+Java+%26+Spring+Boot+%E2%9A%99%EF%B8%8F;Crafting+full-stack+projects+from+scratch+%F0%9F%94%A8;CS+undergrad+%40+KL+University+%F0%9F%8E%93;Always+learning%2C+always+shipping+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+%26+Spring+Boot;Designing+full-stack+systems+from+ground+up;CS+Undergrad+%40+KL+University%2C+Vijayawada;Turning+ideas+into+deployed+products+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
----
+<br/>
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=sairahul5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" />
 
-### 👨‍💻 About Me
+### About Me
 
-    name       : Sai Rahul Adabala
-    alias      : sairahul5
-    college    : KL University, Vijayawada
-    degree     : B.Tech — Computer Science Engineering
-    primary    : Java · Spring Boot · MySQL
-    secondary  : React · Vite · REST APIs
-    building   : Full-Stack projects
-    location   : Kakinada, India 📍
-    status     : Open to collaborate 🤝
+I'm a Computer Science undergrad at KL University, Vijayawada, focused on building production-ready backend systems using **Java** and **Spring Boot**. I enjoy taking projects from a blank file to a live deployment — handling architecture, APIs, database design, and the frontend glue that ties it all together.
+
+Currently building a **Duplicate Detection System** in Spring Boot and sharpening my competitive programming skills on GFG and LeetCode.
+
+- 🎓 &nbsp; B.Tech CSE — KL University, Vijayawada
+- 🔧 &nbsp; Primary stack: Java · Spring Boot · MySQL
+- 🌐 &nbsp; Secondary: React · Vite · REST APIs
+- 📍 &nbsp; Based in Kakinada, India
+- 🤝 &nbsp; Open to collaborations and internships
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
 | Layer | Technologies |
-|-------|-------------|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
-| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+|---|---|
+| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) &nbsp; ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) &nbsp; ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) &nbsp; ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white) &nbsp; ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) &nbsp; ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) &nbsp; ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) &nbsp; ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
 | **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) &nbsp; ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) &nbsp; ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) &nbsp; ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+| **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) &nbsp; ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) |
 
 </div>
 
 ---
 
-## 🚧 Currently Building
-
-<div align="center">
-
-| Project | Stack | Status |
-|---------|-------|--------|
-| 🔍 **Duplicate Detection** | Java · Spring Boot · MySQL | 🔨 In Progress |
-
-</div>
-
-> A backend system to detect and manage duplicate records efficiently — built with Java and Spring Boot, powered by MySQL for persistent storage.
-
----
-
-## ✅ Completed Projects
+## Projects
 
 <!-- PROJECTS_START -->
-
 
 <div align="center">
 <table width="100%">
 <tr>
 <td>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Featured_Project-1f6feb?style=for-the-badge" alt="Featured_Project" />
-  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" alt="2026" />
-  <img src="https://img.shields.io/badge/Code-PJ_:_001-111827?style=for-the-badge" alt="PJ : 001" />
+  <img src="https://img.shields.io/badge/Featured-1f6feb?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-In_Progress-f0a500?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Code-PJ_:_003-111827?style=for-the-badge" />
 </p>
 
-### Question Paper
+### 🔍 Duplicate Detection System
 
-By this project we can upload the question papers and the students can use those paper while during the exams and the question papers will not be uploaded without the approvel of the maneger.
+A backend service that detects and manages duplicate records across datasets. Designed with a focus on performance and data integrity — built using Java and Spring Boot with MySQL as the persistence layer.
 
 <p><strong>Tech Stack</strong></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
-<p align="center">
-  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-</p>
+
 </td>
 </tr>
 </table>
 </div>
 
+<br/>
 
 <div align="center">
 <table width="100%">
 <tr>
 <td>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-1f6feb?style=for-the-badge" alt="Project" />
-  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" alt="2026" />
-  <img src="https://img.shields.io/badge/Code-PJ_:_002-111827?style=for-the-badge" alt="PJ : 002" />
+  <img src="https://img.shields.io/badge/Completed-238636?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Code-PJ_:_001-111827?style=for-the-badge" />
 </p>
 
-### Tourism
+### 📄 Question Paper Management System
 
-I completed this project as part of my full-stack course. In short, this project is about a tourism booking platform where tourists can book hotels and guides.
+A full-stack platform for managing and distributing exam question papers. Students can access uploaded papers during exams, while papers are gated behind manager approval — ensuring controlled access at every stage.
 
 <p><strong>Tech Stack</strong></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" /> <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/My_Sql.-111827?style=for-the-badge&logo=mysql&logoColor=white" alt="My Sql." />
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 <p align="center">
-  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/sairahul5/frontend-rpo.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://frontend-rpo.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
+
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
+<div align="center">
+<table width="100%">
+<tr>
+<td>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Completed-238636?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Year-2026-111827?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Code-PJ_:_002-111827?style=for-the-badge" />
+</p>
+
+### 🌏 Tourism Booking Platform
+
+A full-stack tourism web application where travellers can explore destinations, book hotels, and hire local guides. Built end-to-end as part of a full-stack development course.
+
+<p><strong>Tech Stack</strong></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-111827?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+<p align="center">
+  <a href="https://github.com/sairahul5/tourism-frontend.git"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://tourism-frontend-tau.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
+
 </td>
 </tr>
 </table>
@@ -116,11 +151,13 @@ I completed this project as part of my full-stack course. In short, this project
 
 <!-- PROJECTS_END -->
 
-## 📊 GitHub Analytics
+---
+
+## GitHub Analytics
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sairahul5&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sairahul5&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
 
 </div>
 
@@ -138,13 +175,16 @@ I completed this project as part of my full-stack course. In short, this project
 
 ---
 
-## 🤝 Connect With Me
+## Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sai_Rahul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-rahul-991206330/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-eight-olive-80.vercel.app/)
-[![Gmail](https://img.shields.io/badge/Gmail-sairahuladabala123-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sairahuladabala123@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-1f6feb?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-eight-olive-80.vercel.app/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-rahul-991206330/)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Email-sairahuladabala123-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sairahuladabala123@gmail.com)
+&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-sairahul5-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sairahul5)
 
 </div>
@@ -161,4 +201,4 @@ I completed this project as part of my full-stack course. In short, this project
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:1a3a5c,100:0d1117&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:0d1f2d,100:0d1117&height=100&section=footer" width="100%"/>
