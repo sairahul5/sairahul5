@@ -1,0 +1,74 @@
+name: Update GFG POTD Streak
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # runs daily at 6:00 AM UTC (11:30 AM IST)
+  workflow_dispatch:        # allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch GFG POTD streak
+        id: gfg
+        run: |
+          RESPONSE=$(curl -s \
+            -H "Cookie: ${{ secrets.GFG_SESSION_COOKIE }}" \
+            -H "Accept: application/json" \
+            "https://practiceapi.geeksforgeeks.org/api/latest/problems-of-day/my-pod-profile/")
+
+          echo "API response: $RESPONSE"
+
+          CURRENT=$(echo "$RESPONSE" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('pod_solved_current_streak', 0))")
+          LONGEST=$(echo "$RESPONSE" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('pod_solved_longest_streak', 0))")
+          TOTAL=$(echo "$RESPONSE"   | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('pod_correct_submissions_count', 0))")
+
+          echo "current=$CURRENT" >> $GITHUB_OUTPUT
+          echo "longest=$LONGEST" >> $GITHUB_OUTPUT
+          echo "total=$TOTAL"     >> $GITHUB_OUTPUT
+
+      - name: Update README with streak data
+        run: |
+          CURRENT="${{ steps.gfg.outputs.current }}"
+          LONGEST="${{ steps.gfg.outputs.longest }}"
+          TOTAL="${{ steps.gfg.outputs.total }}"
+
+          python3 << PYEOF
+          import re
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_block = f"""<!-- GFG_STREAK_START -->
+          | 🔥 Current Streak | 🏆 Longest Streak | ✅ Total Solved |
+          |:-----------------:|:-----------------:|:--------------:|
+          | {current} days | {longest} days | {total} problems |
+          <!-- GFG_STREAK_END -->""".replace("          ", "")
+
+          new_block = new_block.format(
+              current="${{ steps.gfg.outputs.current }}",
+              longest="${{ steps.gfg.outputs.longest }}",
+              total="${{ steps.gfg.outputs.total }}"
+          )
+
+          # Replace existing block if present, else this won't match (handled by README having the markers)
+          pattern = r"<!-- GFG_STREAK_START -->.*?<!-- GFG_STREAK_END -->"
+          updated = re.sub(pattern, new_block, content, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+
+          print("README updated successfully")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update GFG POTD streak [skip ci]"
+          git push
