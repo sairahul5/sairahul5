@@ -20,17 +20,17 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ### Frontend
 <p>
-  <img src="https://skillicons.dev/icons?i=react" />
+  <img src="https://skillicons.dev/icons?i=react&theme=light" />
 </p>
 
 ### Database
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql" />
+  <img src="https://skillicons.dev/icons?i=mysql&theme=light" />
 </p>
 
 ### Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,render,docker,githubactions,git" />
+  <img src="https://skillicons.dev/icons?i=aws,vercel,render,docker,githubactions,git&theme=light" />
 </p>
 
 ---
