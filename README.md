@@ -35,9 +35,9 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ## 📌 Featured Project
 
-### [KL Attendance Reflector](https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda?utm_source=item-share-cb)
+### KL Attendance Reflector[View](https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda?utm_source=item-share-cb)
 
-A browser extension built to simplify and improve the attendance tracking experience for KL University students.
+A Google chrome web browser extension built to simplify and improve the attendance tracking experience for KL University students.
 
 ---
 
