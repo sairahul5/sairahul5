@@ -18,7 +18,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
   **Frontend**
 <p>
-  <img src="https://skillicons.dev/icons?i=react&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,html,css,js&theme=light" />
 </p>
 
   **Database**
