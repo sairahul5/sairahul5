@@ -10,7 +10,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ### Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=java,c" />
+  <img src="https://skillicons.dev/icons?i=java,c&theme=light" />
 </p>
 
 ### Backend
