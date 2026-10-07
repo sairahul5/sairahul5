@@ -4,31 +4,29 @@
 
 I'm a software developer and B.Tech student at **KL University**, interested in building backend systems, web applications, and developer tools.
 
----
+##  Skills
 
-## 🚀 Skills
-
-### Languages
+ **Languages**
 <p>
   <img src="https://skillicons.dev/icons?i=java,c&theme=light" />
 </p>
 
-### Backend
+ **Backend**
 <p>
   <img src="https://skillicons.dev/icons?i=spring&theme=light" />
 </p>
 
-### Frontend
+  **Frontend**
 <p>
   <img src="https://skillicons.dev/icons?i=react&theme=light" />
 </p>
 
-### Database
+  **Database**
 <p>
   <img src="https://skillicons.dev/icons?i=mysql&theme=light" />
 </p>
 
-### Tools
+ **Tools**
 <p>
   <img src="https://skillicons.dev/icons?i=aws,vercel,docker,git&theme=light" />
 </p>
