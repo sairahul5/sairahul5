@@ -9,8 +9,9 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 ## 🚀 Skills
 
 ### Languages
-![Java](https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+<p>
+  <img src="https://skillicons.dev/icons?i=java,c" />
+</p>
 
 ### Backend
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
