@@ -39,12 +39,6 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 A browser extension built to simplify and improve the attendance tracking experience for KL University students.
 
-**Technologies:**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,html,css" />
-</p>
-
 ---
 
 ## 🎓 Education
