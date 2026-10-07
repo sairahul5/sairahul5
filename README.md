@@ -28,9 +28,9 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
   <img src="https://skillicons.dev/icons?i=mysql" />
 </p>
 
-### Cloud & DevOps
+### Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,render,docker,githubactions" />
+  <img src="https://skillicons.dev/icons?i=aws,vercel,render,docker,githubactions,git" />
 </p>
 
 ---
