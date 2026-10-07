@@ -9,7 +9,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 ## 🚀 Skills
 
 ### Languages
-![Java]([https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://www.flaticon.com/free-icon/java_226777?related_id=226777))
+![Java](https://www.flaticon.com/free-icon/java_226777?related_id=226777)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
 ### Backend
