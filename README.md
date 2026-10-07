@@ -30,7 +30,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ### Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,render,docker,githubactions,git&theme=light" />
+  <img src="https://skillicons.dev/icons?i=aws,vercel,docker,githubactions,git&theme=light" />
 </p>
 
 ---
