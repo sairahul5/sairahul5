@@ -15,7 +15,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ### Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=spring@theme=light" />
+  <img src="https://skillicons.dev/icons?i=spring&theme=light" />
 </p>
 
 ### Frontend
