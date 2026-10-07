@@ -52,5 +52,5 @@ B.Tech — Computer Science
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,spring,react,mysql,aws,vercel,render,docker,githubactions&perline=5" />
+  <img src="https://skillicons.dev/icons?i=java,c,spring,react,mysql,aws,vercel,docker,githubactions&perline=5" />
 </p>
