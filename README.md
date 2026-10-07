@@ -14,7 +14,9 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 </p>
 
 ### Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=spring" />
+</p>
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
