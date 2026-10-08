@@ -33,7 +33,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ---
 
-## 📌 Featured Project
+## Projects
 
 ### KL Attendance Reflector [View](https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda?utm_source=item-share-cb)
 
