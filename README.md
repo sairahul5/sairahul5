@@ -41,7 +41,7 @@ A Google chrome web browser extension built to simplify and improve the attendan
 
 ---
 
-## 🎓 Education
+## Education
 
 **KL University**
 
@@ -49,7 +49,7 @@ B.Tech — Computer Science
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,c,spring,react,mysql,aws,vercel,docker&perline=4&theme=light" />
