@@ -40,11 +40,10 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
   <img
     src="https://lh3.googleusercontent.com/S8PEB4guEvdOeXmidAr0qFbjxlOyoyGaxZAAgFkBFL5-Wz7CmqwasbOlmB-kf28bHuKfl5dmtXDR2Mk7BbWu34CG12A=s120"
     alt="KL Attendance Reflector Extension Icon"
-    width="80"
-    height="80"
+    width="8"
+    height="8"
   />
-</a>
-A Google chrome web browser extension built to simplify and improve the attendance tracking experience for KL University students.
+</a>A Google chrome web browser extension built to simplify and improve the attendance tracking experience for KL University students.
 
 ---
 
