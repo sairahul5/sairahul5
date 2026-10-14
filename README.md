@@ -35,7 +35,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ## Projects
 
-### KL Attendance Reflector [View](https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda?utm_source=item-share-cb)
+### [KL Attendance Reflector](https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda?utm_source=item-share-cb)
 <a href="https://chromewebstore.google.com/detail/jakpngdanlefjgomjjamkbgdieboinda">
   <img src="https://lh3.googleusercontent.com/S8PEB4guEvdOeXmidAr0qFbjxlOyoyGaxZAAgFkBFL5-Wz7CmqwasbOlmB-kf28bHuKfl5dmtXDR2Mk7BbWu34CG12A=s120" alt="KL Attendance Reflector Extension Icon" width="100" />
 </a>
