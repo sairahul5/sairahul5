@@ -48,8 +48,10 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 ---
 
 ## Education
--
-Pursuing CSE **@KL University**
+---
+**@KL University**
+
+<h1>Pursuing CSE </h1>
 ---
 
 ##  Tech Stack
