@@ -51,6 +51,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 ---
 <h6>Pursuing CSE @KLU </h6>
 ---
+---
 ##  Tech Stack
 
 <p align="center">
