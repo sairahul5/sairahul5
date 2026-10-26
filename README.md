@@ -51,3 +51,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,c,spring,react,mysql,aws,vercel,docker&perline=4&theme=light" />
 </p>
+
+## Education
+
+Pursuing CSE **@KLUniversity**
