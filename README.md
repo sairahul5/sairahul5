@@ -49,10 +49,7 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 
 ## Education
 
-**KL University**
-
-B.Tech — Computer Science
-
+**Pursuing CSE @KL University**
 ---
 
 ##  Tech Stack
