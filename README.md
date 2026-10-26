@@ -46,12 +46,6 @@ I'm a software developer and B.Tech student at **KL University**, interested in 
 </a>A Google chrome web browser extension built to simplify and improve the attendance tracking experience for KL University students.
 
 ---
-
-## Education
----
-<h6>Pursuing CSE @KLU </h6>
----
----
 ##  Tech Stack
 
 <p align="center">
